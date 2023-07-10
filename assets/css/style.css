@@ -1905,6 +1905,12 @@ blockquote cite:after {
   border-radius: 10px;
 }
 
+.card-package {
+  background-color: #142442;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 .card .card-body {
   padding: 55px 60px 60px;
 }
@@ -3164,7 +3170,7 @@ textarea.form-control {
 }
 
 .item-details .product-title {
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 34px;
 }
 
@@ -3176,6 +3182,16 @@ textarea.form-control {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 38px;
+}
+
+.available-package {
+  color: #1de980;
+  font-weight: bold;
+}
+
+.notavailable-package {
+  color: var(--c1);
+  text-decoration: line-through;
 }
 
 .item-details .favorites .available {
